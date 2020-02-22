@@ -370,7 +370,7 @@ $ kubectl get nodes
 ## 第三步：解决coredns pod CrashLoopBackOff
 ```shell
 # 为什么？
-# 因为ubuntu系统会不断地刷新/etc/resolv.conf的文件，所以一直导致coredns会缺少文件，孤儿不断的地 CrashLoopBackOff
+# 因为ubuntu系统会不断地刷新/etc/resolv.conf的文件，所以一直导致coredns会缺少文件，故而不断的地 CrashLoopBackOff
 
 # 解决办法有2种，
 
